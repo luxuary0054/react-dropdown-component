@@ -13,6 +13,7 @@
     "dev": "rollup -c -w",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "test": "jest",
     "lint": "eslint src --ext .ts,.tsx",
     "type-check": "tsc --noEmit"
@@ -51,6 +52,7 @@
     "eslint": "^8.38.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.3.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
@@ -82,6 +84,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-dropdown-component.git"
-  }
+    "url": "https://github.com/luxuary0054/react-dropdown-component.git"
+  },
+  "homepage": "https://luxuary0054.github.io/react-dropdown-component"
 }

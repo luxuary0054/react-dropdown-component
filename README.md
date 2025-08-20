@@ -131,7 +131,6 @@ stories/
 - React 16.8+ (hooks support required)
 - Modern browsers with ES6+ support
 - TypeScript 4.0+
-- 
 
 ### Performance Tips
 
