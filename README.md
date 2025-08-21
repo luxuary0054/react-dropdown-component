@@ -30,6 +30,28 @@ npm install
 npm run build
 ```
 
+### Demo
+
+Run the interactive demo to see all features in action:
+
+```bash
+# Start the demo
+npm run demo
+
+# Build the demo for production
+npm run build-demo
+
+# Preview the built demo
+npm run preview-demo
+```
+
+The demo showcases:
+- Basic dropdown functionality
+- Multiple selection with chips
+- Searchable dropdowns
+- Custom styling examples
+- Interactive code examples
+
 ### Peer Dependencies
 
 This component requires React 16.8+ (for hooks support) and React DOM as peer dependencies:
@@ -88,8 +110,14 @@ npm install
 # Start development mode with watch
 npm run dev
 
+# Start demo
+npm run demo
+
 # Build for production
 npm run build
+
+# Build demo for production
+npm run build-demo
 
 # Type checking
 npm run type-check
