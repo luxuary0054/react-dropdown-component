@@ -3,7 +3,9 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import { terser } from "rollup-plugin-terser";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import { createRequire } from "module";
 
+const require = createRequire(import.meta.url);
 const packageJson = require("./package.json");
 
 export default [
